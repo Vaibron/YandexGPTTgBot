@@ -87,8 +87,7 @@
 
       <img src="images/img_2.png" alt="images/img_2.png" width="500">
 
-   2.3. Для получения OAUTH_TOKEN заходим сюда https://yandex.cloud/ru/docs/iam/operations/iam-token/create и нажимаем "
-   перейдите по ссылке", после копируем токен.
+   2.3. Для получения OAUTH_TOKEN заходим сюда https://yandex.cloud/ru/docs/iam/operations/iam-token/create и нажимаем "перейдите по ссылке", после копируем токен.
 
       <img src="images/img_1.png" alt="images/img_1.png" width="500">
 
