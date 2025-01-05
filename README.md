@@ -56,16 +56,16 @@ pip install -r requirements.txt
 
    2.1. Регистрируемся на Yandex Cloud и создаем платежный аккаунт в https://console.yandex.cloud.
 
-      <img src="images/img.png" alt="images/img.png" width="300">
+      <img src="images/img.png" alt="images/img.png" width="500">
 
    2.2. Находим FOLDER_ID. Его можно найти на главной странице личного кабинета.
 
-      <img src="images/img_2.png" alt="images/img_2.png" width="300">
+      <img src="images/img_2.png" alt="images/img_2.png" width="500">
 
    2.3. Для получения OAUTH_TOKEN заходим сюда https://yandex.cloud/ru/docs/iam/operations/iam-token/create и нажимаем "
    перейдите по ссылке", после копируем токен.
 
-      <img src="images/img_1.png" alt="images/img_1.png" width="300">
+      <img src="images/img_1.png" alt="images/img_1.png" width="500">
 
 3. **Получение WEATHER_API_KEY**
 
@@ -112,18 +112,18 @@ pip install -r requirements.txt
    ```
    4.2. Добавьте вашего бота в группу или чат, используя тот же способ, что и для добавления обычного пользователя.
    
-      <img src="images/img_5.png" alt="images/img_5.png" width="300">
+      <img src="images/img_5.png" alt="images/img_5.png" width="500">
 
    4.3. Получение CHAT_ID:
     - Перейдите в настройки Telegram -> Общие, спуститесь вниз и включите "Показывать ID чатов в профиле"
 
-       <img src="images/img_3.png" alt="images/img_3.png" width="300">
+       <img src="images/img_3.png" alt="images/img_3.png" width="500">
 
     - Зайдите в чат, куда вы добавили бота. Скопируйте ваше число например "123456789" и добавьте "-100"
       перед числом, в качестве префикса.
       Должно получиться "-100123456789". Это и есть CHAT_ID.
 
-       <img src="images/img_4.png" alt="images/img_4.png" width="300">
+       <img src="images/img_4.png" alt="images/img_4.png" width="500">
    
    
 5. **Настройка `settings.json`**
