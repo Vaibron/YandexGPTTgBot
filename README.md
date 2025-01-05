@@ -16,13 +16,39 @@
 
 ## Установка
 
-1. **Создайте виртуальное окружение**. В каталоге проекта выполните команду:
+
+
+Извините за недоразумение. Вот обновленные шаги с установкой Python:
+
+1. **Установите Python**:
+
+   - Для Windows:
+     - Скачайте последнюю версию Python с официального сайта: [python.org/downloads](https://www.python.org/downloads/).
+     - Во время установки убедитесь, что поставили галочку "Add Python to PATH", чтобы Python был доступен из командной строки.
+
+   - Для macOS:
+     - Используйте [Homebrew](https://brew.sh/), если он установлен:
+       ```bash
+       brew install python
+       ```
+     - Или скачайте Python с [официального сайта](https://www.python.org/downloads/).
+
+   - Для Linux:
+     - На Ubuntu/Debian:
+       ```bash
+       sudo apt update
+       sudo apt install python3 python3-pip python3-venv
+       ```
+
+2. **Создайте виртуальное окружение**:
+
+   После установки Python, выполните команду для создания виртуального окружения в каталоге вашего проекта:
 
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    ```
 
-2. **Активируйте виртуальное окружение**:
+3. **Активируйте виртуальное окружение**:
 
    - На Windows:
      ```bash
@@ -34,19 +60,19 @@
      source venv/bin/activate
      ```
 
-3. **Клонируйте репозиторий**:
+4. **Клонируйте репозиторий**:
 
    ```bash
    git clone https://github.com/Vaibron/YandexGPTTgBot.git
    ```
 
-4. **Перейдите в директорию с проектом**:
+5. **Перейдите в директорию с проектом**:
 
    ```bash
    cd YandexGPTTgBot
    ```
 
-5. **Установите зависимости** из файла `requirements.txt`:
+6. **Установите зависимости**:
 
    ```bash
    pip install -r requirements.txt
