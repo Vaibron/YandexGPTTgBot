@@ -14,20 +14,43 @@
 - `.env`: Файл для хранения чувствительных данных, таких как токены для API и бот-токены.
 - `requirements.txt`: Список зависимостей проекта.
 
-## Установка
+## Установкае
 
-Клонируйте репозиторий на свой локальный компьютер:
+1. **Создайте виртуальное окружение**. В каталоге проекта выполните команду:
 
-```bash
-git clone https://github.com/Vaibron/YandexGPTTgBot.git
-```
+   ```bash
+   python -m venv venv
+   ```
 
-Для работы бота необходимо установить несколько Python-библиотек. Список всех зависимостей находится в файле
-`requirements.txt`. Установить их можно с помощью pip:
+2. **Активируйте виртуальное окружение**:
 
-```bash
-pip install -r requirements.txt
-```
+   - На Windows:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+
+   - На macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Клонируйте репозиторий**:
+
+   ```bash
+   git clone https://github.com/Vaibron/YandexGPTTgBot.git
+   ```
+
+4. **Перейдите в директорию с проектом**:
+
+   ```bash
+   cd YandexGPTTgBot
+   ```
+
+5. **Установите зависимости** из файла `requirements.txt`:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Зависимости:
 
@@ -35,6 +58,8 @@ pip install -r requirements.txt
 - `python-telegram-bot==20.0`
 - `APScheduler==3.10.4`
 - `python-dotenv==1.0.1`
+
+Теперь ваше виртуальное окружение настроено, и все зависимости установлены, переходим к настройке бота!
 
 ## Настройка
 
